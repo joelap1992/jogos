@@ -5,7 +5,7 @@ print("****************************")
 numero_secreto = 500
 tentativa      = 4
 
-# rodada         = 1 tirando para fazer o laço FOR
+# rodada         = 9 tirando para fazer o laço FOR
 
 for rodada in range(1,tentativa + 1):
     print("Tentativas {} de {}".format(rodada, tentativa))
