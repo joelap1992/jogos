@@ -9,8 +9,11 @@ tentativa      = 4
 
 for rodada in range(1,tentativa + 1):
     print("Tentativas {} de {}".format(rodada, tentativa))
-    chute =int(input("Digite um número: "))
+    chute =int(input("Digite um número entre 1 e 100: "))
     print("Você digitou o número: ",chute)
+    
+    if(chute < 0 or chute > 100):
+      break 
 
     acertou = chute == numero_secreto
     maior   = chute > numero_secreto
